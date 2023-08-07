@@ -73,6 +73,42 @@ The steps to solve this problem are:
 
 - Calculate the Prescription count to extract dominant patterns in the prescription data.
 - Visualize the prescription patterns over time (X-axis: month, Y-axis: number of prescriptions) using Barchart.
+## File Structure
+
+
+
+### Predictive Model
+- Open the Jupyter notebook 001.ipynb.
+- Load the Train.parquet dataset and preprocess it for training.
+- Develop the predictive model using suitable techniques and features.
+- Evaluate the model on the validation set and optimize performance.
+- Load the Test.parquet dataset and predict the eligibility of patients for "Target Drug."
+- Save the predictions in Final_submission.csv.
+### Analysis - Dropoff Rate (Problem 2) and Prescription Patterns (Problem 3)
+- Open the respective Jupyter notebooks 002.ipynb and 003.ipynb.
+- Load the Train.parquet dataset and preprocess it for analysis.
+- Perform the required analysis as described in the problem statements.
+- Visualize the results, if applicable.
+- Document the findings in the corresponding PDF files 002.pdf and 003.pdf.
+
+
+```bash 
+List Of Files
+ 
+├── Train.parquet
+├── Test.parquet
+├── Final_submission.csv
+├── 001.ipynb
+├── 001.pdf
+├── 002.ipynb
+├── 002.pdf
+├── 003.ipynb
+└── 003.pdf
+
+```
+
+
+
 ## Lessons Learned
 
 - The Learning outcomes of this project help me to understand the importance of problem framing, data preprocessing, and model selection while addressing real-world challenges with healthcare data.
